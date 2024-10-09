@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/color.css">
+    <link rel="stylesheet" href="asset/css/header.css">
+    <link rel="stylesheet" href="asset/css/content.css">
+    <link rel="stylesheet" href="asset/css/footer.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="responsive/responsive_PC.css">
+    <link rel="stylesheet" href="responsive/responsive_Table.css">
+    <link rel="stylesheet" href="responsive/responsive.Mobile.css">
+    <link rel="stylesheet" href="asset/icon/fontawesome-free-6.6.0-web/css/all.css">
+    <link rel="stylesheet" href="asset/icon/themify-icons/themify-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Trang chính</title>
+</head>
+
+<body>
+
+    <div id="header"></div>
+    <div id="content"></div>
+    <div id="footer"></div>
+
+    <script>
+        function loadHTML(elementId, url) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = data;
+                    if (callback) {
+                        callback(); // Gọi callback khi nội dung đã tải xong
+                    }
+                });
+        }
+
+        loadHTML("header", "header.html");
+        loadHTML("content", "content.html");
+        loadHTML("footer", "footer.html");
+    </script>
+
+</body>
+
+
+<script>
+    let currentIndex = 0; // Chỉ số ảnh hiện tại
+    const images = document.querySelectorAll('.image');
+
+    function nextImage() {
+        images[currentIndex].classList.remove('active'); // Ẩn ảnh hiện tại
+        currentIndex = (currentIndex + 1) % images.length; // Tăng chỉ số và quay về đầu nếu cần
+        images[currentIndex].classList.add('active'); // Hiển thị ảnh mới
+    }
+
+    // Tự động thay đổi hình ảnh sau mỗi 3 giây
+    setInterval(nextImage, 3000);
+    document.querySelector('.my-element').style.color = 'green';
+
+</script>
+
+</html>
