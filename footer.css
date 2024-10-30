@@ -1,0 +1,52 @@
+
+
+
+
+.title-radio1 {
+    position: relative;
+    left: 22%;
+}
+
+.partners {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    background: #170f23;
+    height: auto;
+    padding-bottom: 100px;
+
+}
+
+.partners-mini {
+    padding-left: 260px;
+    padding-right: 50px;
+    height: auto;
+    overflow: hidden;
+}
+
+.partners h3 {
+    font-size: 20px;
+    color: #aaa;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.partners-logos {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.partners-logos img {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.partners h3:hover {
+    color: var(--mauhong);
+}

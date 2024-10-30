@@ -1,0 +1,56 @@
+/* PC */
+@media (min-width: 1024px) {
+
+    .mobile-btn {
+        display: none;
+    }
+
+    .sub-header-mobile {
+        display: none;
+    }
+
+    .table-seach {
+        display: none;
+    }
+
+    .icon-setting123 {
+        display: none;
+    }
+
+    .image-container {
+        display: none;
+    }
+
+    .level-mobile {
+        display: none;
+    }
+
+    .zmp3-header-2 {
+        display: none;
+    }
+    .the-none{
+        display: none;
+    }
+    .image-container-2{
+        display: none;
+    }
+    .zingchart-btn{
+        display: none;
+    }
+    .time-zingchart{
+        display: none;
+    }
+    .the-none11{
+        display: none;
+    }
+    #footer-MV{
+        display: none;
+    }
+    .footer-mobile{
+        display: none;
+    }
+
+    
+
+
+}

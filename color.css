@@ -1,0 +1,90 @@
+/* star header */
+:root {
+    --white: #ffffff;
+}
+:root {
+    --red : #ff0000;
+}
+:root {
+    --blue : #0a41a7;
+}
+:root {
+    --green : #54bd0e;
+}
+#header {
+    background-color: #261d33;
+}
+:root {
+    --timnhat:hsla(0,0%,100%,0.1);
+}
+:root {
+    --mauhong:#9b4de0;
+}
+:root {
+    --maunhat:hsl(0, 0%, 100%,0.5);
+}
+:root {
+    --black:#333;
+}
+:root {
+    --timnhat-dam: hsla(0,0%,100%,0.3)
+}
+
+:root {
+    --maukhoi:#6e6d6d;
+}
+#nav {
+
+}
+
+.zmp3-header {
+    background: #170f23;
+}
+
+.icon,
+a {
+    color: #ded0d0;
+
+}
+
+.text {
+    color: white;
+}
+
+.login-nav {
+    background-color: #9b4de0;
+    color: white;
+}
+
+.login-nav-btn {
+    border-color: white;
+    background: inherit;
+    color: white;
+}
+
+.icon-add {
+    color: #dadada;
+    background: inherit;
+}
+
+/*end phần header */
+
+/* start zm-header*/
+.zm-btn {
+    background-color: #2B2B2B;
+    background: #2B2B2B;
+    color: #585353;
+    background: rgba(255, 255, 255, 0);
+}
+.text-list{
+    color: #fff;
+}
+/* CSS ngheganday */
+.link-color{
+    color: white;
+    font-size: 14px;
+}
+.link-color:hover{
+    color: #9b4de0;
+    cursor: pointer;
+}

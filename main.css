@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.column-box-5 {
+    width: 100%;
+    display: flex;
+    z-index: 3;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    /* lam hieu ung cuon muot ma */
+}
+
+.column100 {
+    width: 100%;
+    display: flex;
+}
+
+.columns7 {
+    width: 14.3333%;
+}
+
+body {
+    background: #303030;
+
+}
+
+#main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 1000;
+    width: 240px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
